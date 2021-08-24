@@ -1,1 +1,40 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-secondary">
 
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+      <ul class="navbar-nav mr-auto d-flex jus align-items-center">
+          <!-- mr-auto - coloca todo o conteúdo para a esquerda -->
+
+        <li class="nav-item active">
+         <img src="https://i.imgur.com/ucafu2x.jpg" alt="Imagem do usuário" width="50px" height="50px" class="img-fluid rounded-circle">
+        <!-- img fluid - deixa a imagem responsiva a qualquer tipo de tela -->
+        <!-- rounded-circle deixa a imagem arredondada -->
+        </li>
+        <li class="nav-item pl-3 ">
+         <p class="m-0 font-weight-bold text-white fs-16"> Nome do usuário</p>
+        </li>
+
+        <li class="nav-item pl-3 ">
+            <!-- tag a faz com que o ícone vire um link -->
+            <a href="">
+                <p class="text-white fs-16 m-0"><i class="fa fa-pencil-square-o " aria-hidden="true"></i>
+                </p>
+            </a>
+           </li>
+      </ul>
+
+      <ul class="navbar-nav ml-auto d-flex jus align-items-center">
+          <!-- ml-auto - joga todo o texto para a direita -->
+        <li class="nav-item pl-3 ">
+            <a class="m-0 font-weight-bold text-white fs-16">Sair <i class="fa fa-sign-out" aria-hidden="true"></i></a>
+           </li>
+
+      </ul>
+
+    </div>
+  </nav>
+ <!-- para a barra aparecer, é preciso chamar a referência do menu no HTML GERAL, através do seletor que consta na parte do menu.components.ts -->
+ 
