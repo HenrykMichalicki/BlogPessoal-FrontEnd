@@ -5,11 +5,11 @@
     /* min-width: 948px; */
     /* min-height:  615px; */
 
-    min-height: 100vh;
-
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
+
+    min-height: 100vh;
 }
 
 
