@@ -1,0 +1,16 @@
+/* background-size: cover - preenche a tela toda */
+#img-bg{
+    background-image: url("https://i.imgur.com/M17fMpj.jpg");
+
+    /* min-width: 948px; */
+    /* min-height:  615px; */
+
+    min-height: 100vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+
+

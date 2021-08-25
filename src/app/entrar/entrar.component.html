@@ -1,0 +1,44 @@
+<!-- container-fluid - preenche a tela toda -->
+<!-- label - cabeçário do input -->
+<!-- input - abre a caixa de texto determinada para ser digitado algo. precisa de name e id para fazer referência ao backend-->
+<!-- placeholder - texto que aparece dentro da label -->
+
+<div class="container-fluid">
+  <div class="row d-flex align-items-center">
+
+    <div class="col-md-6">
+        
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-6">
+
+                <h1 class="text-danger d-flex justify-content-center mb-3">Entrar</h1>
+
+                <div class="form-group">
+                    <label for="usuario">Usuário</label>
+                    <input class="form-control" type="text" name="susário" id="usuario" placeholder="Digite seu usuário">
+                </div>
+    
+
+                <div class="form-group">
+                    <label for="senha">Senha</label>
+                    <input class="form-control" type="password" name="senha" id="senha" placeholder="Digite sua senha">
+                </div>
+
+                <div class="d-flex justify-content-center m-4">
+                    <button type="submit" class="btn btn-danger">Entrar</button>
+                </div>
+                <!-- Criar a linha para separar os botões -->
+                <hr class="mt-4 mb-4">
+
+                <p class="text-center">Não tem uma conta? <a href="">Cadastre-se!</a>
+                </p>
+            </div>
+
+    </div>
+
+
+</div>
+
+    <div class="col-md-6" id="img-bg"></div>
+  </div>
+</div>
