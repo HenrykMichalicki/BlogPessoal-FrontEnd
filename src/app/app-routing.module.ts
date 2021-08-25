@@ -10,7 +10,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 // local onde se coloca as rotas de cada página do site //
 // página inicial - para que sempre apareça a página inicial, colocar um path vazio, redirectTo - sempre fazer referência a uma rota já criada em modo full
-// path - nome da rota
+// path - nome da rota a ser criada
 // component - determinar o componente respectivo a roda denominada no path
 const routes: Routes = [
   {path: '', redirectTo: 'entrar', pathMatch: 'full'},
