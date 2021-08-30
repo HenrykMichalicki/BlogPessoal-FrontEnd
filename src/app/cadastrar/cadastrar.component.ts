@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CadastrarComponent implements OnInit {
 
+  usuario: usuario = new this.usuario()
+  confirmaSenha: string;
+  tipoUsuario: string;
+
   constructor() { }
 
   ngOnInit(): void {

@@ -11,11 +11,11 @@ ul.social-network li{
     padding: 5px;
 }
 
-/* padronizar a cor dos itens e o tamanho */
+/* padroniza  a cor dos itens e o tamanho */
 .fa{
-    font-size: 35pt;
+    font-size: 25pt;
     color: white;
-    padding: 10px;
+    padding: 5px;
 }
 
 /* tornar os itens clicáveis */
