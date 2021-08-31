@@ -27,7 +27,8 @@ export class EntrarComponent implements OnInit {
     this.auth.entrar(this.usuarioLogin).subscribe((resp: UsuarioLogin)=>{
       this.usuarioLogin = resp
 
-      // enviroment - objetos que ajudam a trabalhar com variáveis globais. deve ser incializado na pasta environment- environment.prod
+      // enviroment - objetos que ajudam a trabalhar com variáveis globais. Para criar "variáveis globais", acessiveis a todos os componentes. deve ser incializado na pasta environment- environment.prod
+
 
       environment.token = this.usuarioLogin.token
       environment.id = this.usuarioLogin.id
