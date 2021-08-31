@@ -1,18 +1,22 @@
 
 <!-- deixar as rotas dinâmicas, ou seja, faz com que haja responsividade entre todas as partes clicáveis definidas em app.routing -->
-<!-- <router-outlet></router-outlet> -->
-
 <!-- Menu - precisa ser chamado o seletor da barra criada em menu.component para que ela apareça no site -->
-<app-menu></app-menu>
+
 
 <!-- rodapé - precisa ser referenciado para que ele apareça na página -->
 
+<!-- ngIf ='auth.logado()' - determina que ao se estar logado, o item aparece -->
+<app-menu *ngIf='auth.logado()'></app-menu>
+<router-outlet></router-outlet>
+<app-rodape *ngIf='auth.logado()'></app-rodape> 
 
-<app-entrar></app-entrar>
 
-<app-cadastrar></app-cadastrar>
 
-<app-rodape></app-rodape> 
+
+<!-- <app-entrar></app-entrar> -->
+
+<!-- <app-cadastrar></app-cadastrar> -->
+ 
 
 
 
